@@ -5,16 +5,37 @@
     scroll-behavior: smooth
 }
 
-body {
-    background-color:var(--black) !important;
-    overflow-x: hidden;
+
+
+@media screen and (max-width: 385px) {
+    #desktop {
+        display: none !important;
+    }
+    #mobile {
+        display: block;
+    }
 }
 
-.title {
-    color: var(--white, #FFF);
-    font-family: Montserrat;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+@media screen and (min-width: 385px) {
+    body {
+        background-color: #000000;
+        margin-left: 8.3%;
+        margin-right: 8.3%;
+        overflow-x: hidden;
+    }
+    
+    .title {
+        color: var(--white, #FFF);
+        font-family: Montserrat;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    #desktop {
+        display: block;
+    }
+    #mobile {
+        display: none !important;
+    }
 }
