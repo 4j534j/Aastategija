@@ -1,0 +1,133 @@
+:root{
+    --green: #B6DE75;
+    --whitish:#F4FAEA;
+    --darkgreen: #92CE31;
+    --darktext: #1E1F21;
+    --textgreen: #DDF0BF;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin-left: 8.3%;
+    margin-right: 8.3%;
+}
+h1{
+    color: white;
+    background-color: transparent;
+    text-align: left;
+    width: 100%;
+    font-size: 5rem;
+}
+/*schedule day */
+.schedule{
+    padding-top: 10vh;
+    background: transparent;
+    width: 100%;
+    display: flex;
+}
+.schedule-small{
+    background: var(--darktext);
+    margin-left: 3rem;
+    border-radius: 10%;
+    width: 15vw;
+    padding: 1rem;
+    cursor: pointer;
+}
+.schedule-small:hover{
+    background: var(--darkgreen);
+}
+.schedule-small:hover h1{
+    color: var(--darktext)
+
+}
+.schedule-small h1{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--textgreen);
+}
+#selected-day{
+    background:var(--darkgreen);
+}
+#selected-day h1{
+    color: var(--darktext)
+}
+
+/* top row of schedule */
+.schedule-rowtop {
+    margin-top: 2rem;
+    height: 5rem;
+    color: var(--green);
+    background: var(--darktext);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+}
+.schedule-rowtop h2{
+    text-align: left;
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+/* schedule */
+.schedule-row {
+    margin-top: 2rem;
+    height: 10rem;
+    color: var(--darktext);
+    background: var(--whitish);
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+.schedule-row h2{
+    text-align: left;
+    font-size: 2rem;
+}
+#schedule-row2{
+    background: var(--darkgreen);
+}
+.schedule-line{
+    width: 0.1%;
+    background: var(--darktext);
+    height: 100%;
+    opacity: 0.4;
+}
+.schedule-time{
+    display: flex;
+    justify-content:left;
+    width: 10%;
+}
+.schedule-event{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 1%;
+}
+.schedule-location{
+    display: flex;
+    justify-content:left;
+    width: 35%;
+    gap: 1rem;
+}
+.schedule-location img{
+    width: auto;
+    padding-left: 1rem;
+}
+.schedule-rowtop h2{
+    font-size: 1.5rem;
+}
+/* day change*/
+#day1{
+    display: none;
+}
+#day2{
+    display: block;
+}
+#day3{
+    display: none;
+}

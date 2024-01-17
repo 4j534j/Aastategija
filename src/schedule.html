@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>schedule</title>
+  <link rel="stylesheet" href="../src/css/schedule.css">
+  <script src="js/schedule.js"></script>
+</head>
+<body>
+    <h1> Schedule</h1>
+    <!-- day 1-->
+    <div id="day1">
+        <div class="schedule">
+            <div class="schedule-small" id="selected-day">
+                <h1>Thursday</h1>
+                <h1>25.04.2024</h1>
+            </div>
+            <div class="schedule-small" onclick="daychange(this, 'day1')" alt="day2">
+                <h1> Fryday</h1>
+                <h1>26.04.2024</h1>
+            </div>
+            <div class="schedule-small" onclick="daychange(this, 'day1')" alt="day3">
+                <h1> Saturday</h1>
+                <h1>27.04.2024</h1>
+            </div>
+    </div>
+
+    <div class="schedule-rowtop">
+        <div class="schedule-time">
+            <h2>Time</h2>
+        </div>
+        <div class="schedule-event">
+            <h2>Activity</h2>
+        </div>
+        <div class="schedule-location">
+            <h2>Venue</h2>
+        </div>
+    </div>
+    <!-- todays schedule-->
+    <div class="schedule-row">
+        <div class="schedule-time">
+            <h2>13.00-15.00</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-event">
+            <h2>Arrival and Accomodation of national delegation at the hostel</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-location">
+            <img src="img/vocoloc.png">
+            <h2> Tartu Vocational College</h2>
+        </div>
+    </div>
+
+    <div class="schedule-row" id='schedule-row2'>
+        <div class="schedule-time">
+            <h2> 13.00-15.00</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-event">
+            <h2> Lunch</h2>
+        </div>
+        <div class="schedule-line"></div>
+    </div>
+    
+    <div class="schedule-row">
+        <div class="schedule-time">
+            <h2> 16.00-16.30</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-event">
+            <h2> Delegation leaders meeting and accreditaion</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-location">
+            <img src="img/ermloc.png">
+            <h2> Estonian National Museum</h2>
+        </div>
+    </div>
+    <div class="schedule-row">
+        <div class="schedule-time">
+            <h2> 18.00-19.30</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-event">
+            <h2> Opening ceremony</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-location">
+            <img src="img/ermloc.png">
+            <h2> Estonian National Museum</h2>
+        </div>
+    </div>
+    <div class="schedule-row" id="schedule-row2">
+        <div class="schedule-time">
+            <h2> 20.00</h2>
+        </div>
+        <div class="schedule-line"></div>
+        <div class="schedule-event">
+            <h2> Meeting with the Minister of Education and the mayor</h2>
+        </div>
+        <div class="schedule-line"></div>
+    </div>
+    </div>
+    
+    <!-- day2-->
+    <div id="day2">
+        <div class="schedule">
+           <div class="schedule-small" onclick="daychange(this, 'day2')" alt="day1">
+                <h1>Thursday</h1>
+                <h1>25.04.2024</h1>
+            </div>
+            <div class="schedule-small" id="selected-day">
+                <h1> Fryday</h1>
+                <h1>26.04.2024</h1>
+            </div>
+            <div class="schedule-small"onclick="daychange(this, 'day2')"  alt="day3">
+                <h1> Saturday</h1>
+                <h1>27.04.2024</h1>
+            </div>
+        </div>
+
+        <div class="schedule-rowtop">
+            <div class="schedule-time">
+                <h2>Time</h2>
+            </div>
+            <div class="schedule-event">
+                <h2>Activity</h2>
+            </div>
+            <div class="schedule-location">
+                <h2>Venue</h2>
+            </div>
+        </div>
+        <!--2 todays schedule-->
+        <div class="schedule-row" id="schedule-row2">
+            <div class="schedule-time">
+                <h2> 7.30-9.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Breakfast</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2> Tartu Vocational College</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 09.30 - 11.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Volleyball_EST-LAT (young women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 09.30 - 11.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Basketball_EST-LAT (young men)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 10.00 - 16.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Table Tennis</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2> Tartu Vocational College</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 11.15 - 12.45</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Volleyball_EST-LAT (young men)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 11.15 - 11.45</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>3x3 Basketball_EST-LAT (young women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 09.30 - 11.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Volleyball_EST-LAT (young women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 12.00 - 12.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> 3x3 Basketball_EST-LIT (men)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 12.45 - 13.15</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> 3x3 Basketball_EST-LIT (women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+        <!-- Lunch-->
+        <div class="schedule-row" id="schedule-row2">
+            <div class="schedule-time">
+                <h2> 13.00 - 15.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Lunch</h2>
+            </div>
+            <div class="schedule-line"></div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 13.00 - 14.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> 3x3 basketball_EST-LIT (youngwomen)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 14.30 - 16.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> Headmasters competition</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2> Tartu Vocational College</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 13.00 - 14.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2> 3x3 Volleyball/EST-LIT (young women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 14.30 - 16.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Basketball_EST-LIT (young men)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 14.45 - 16.15</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Volleyball_EST-LIT</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 16.15 - 16.45</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>3x3 Basketball_EST-LAT (women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+        
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 17.00 - 17.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>3x3 Basketball_EST-LAT (men)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row" id="schedule-row2">
+            <div class="schedule-time">
+                <h2> 17.00 - 18.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Dinner</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2> Tartu Vocational College</h2>
+            </div>
+        </div>
+        <!--Dinner-->
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 19.00 - 23.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Socialization evening for employees, invited quests and staff. 
+                    Socialization evening for students </h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2> Tartu Vocational College</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row" id="schedule-row2">
+            <div class="schedule-time">
+                <h2> 20.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Awarding ceremony in headmasters competition</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2> Tartu Vocational College</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- day3-->
+    <div id="day3">
+        <div class="schedule">
+            <div class="schedule-small" onclick="daychange(this, 'day3')" alt="day1">
+                <h1>Thursday</h1>
+                <h1>25.04.2024</h1>
+            </div>
+            <div class="schedule-small" onclick="daychange(this,'day3')" alt="day2">
+                <h1> Fryday</h1>
+                <h1>26.04.2024</h1>
+            </div>
+            <div class="schedule-small" id="selected-day" >
+                <h1> Saturday</h1>
+                <h1>27.04.2024</h1>
+            </div>
+        </div>
+
+        <div class="schedule-rowtop" id='schedule-row1'>
+            <div class="schedule-time">
+                <h2>Time</h2>
+            </div>
+            
+            <div class="schedule-event">
+                <h2>Activity</h2>
+            </div>
+        
+            <div class="schedule-location">
+                <h2>Venue</h2>
+            </div>
+        </div>
+        <!-- todays schedule-->
+        <div class="schedule-row" id="schedule-row2">
+            <div class="schedule-time">
+                <h2> 07.30 - 09.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Breakfast</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2> Tartu Vocational College</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 09.00 - 10.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Volleyball_Lit-Lat (young women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 09.00 - 10.30</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Basketball_LIT-LAT (young women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 10.45 - 12.15</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Volleyball_Lit-LAT (young men)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 10.45 - 11.15</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>3x3 Basketball_LAT-LIT (young women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 11.30 - 12.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>3x3 Basketball_LAT-LIT (women)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 12.15 - 12.45</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>3x3 Basketball_LAT-LIT (men)</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/varikuloc.png">
+                <h2> Variku Sports Hall</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row" id="schedule-row2">
+            <div class="schedule-time">
+                <h2> 12.30 - 14.00</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Lunch</h2>
+            </div>
+            <div class="schedule-line"></div>
+        </div>
+        <!--Lunch-->
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 14.00 </h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Meeting of the head of delegation -
+                    confirmation of the results.</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2>Tartu Vocational College</h2>
+            </div>
+        </div>
+
+        <div class="schedule-row">
+            <div class="schedule-time">
+                <h2> 14.30 </h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-event">
+                <h2>Closing and awarding ceremony</h2>
+            </div>
+            <div class="schedule-line"></div>
+            <div class="schedule-location">
+                <img src="img/vocoloc.png">
+                <h2>Tartu Vocational College </h2>
+            </div>
+        </div>
+ 
+
+    </div>
+        </div>
+</body>
