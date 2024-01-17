@@ -1,0 +1,30 @@
+/* showcase */
+#showcase {
+    background: #000;
+    top: 0%;
+    display: flex;
+} 
+#showcase img {
+    max-width: 60.5%;
+    height: auto;
+}  
+#showcase .showcase-content {
+    position: absolute;
+    right: 8.3%;
+    top: 30%;
+    
+} 
+#showcase h1 {
+    color: #B6DE75;
+    font-weight: 700;
+    font-size: 79%;
+    line-height: 100%;
+    align-items: center;
+} 
+#showcase p {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 39.3%;
+    line-height: 50%;
+    align-items: center;
+} 
