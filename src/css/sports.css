@@ -1,34 +1,114 @@
+:root{
+    --green: #B6DE75;
+    --whitish:#F4FAEA;
+
+}
 *{
     padding: 0;
     margin: 0;
-    background: black;
     box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin-left: 8.3%;
+    margin-right: 8.3%;
 }
 h1{
     color: white;
     background-color: transparent;
     text-align: left;
+    width: 100%;
+    font-size: 5rem;
 }
 .container{
-    margin-left: 8.3%;
-    margin-right: 8.3%;
-    display:flex inline-block;
-    width: auto;
-    height: 100vh;
-}
-.container .box {
-    
-    margin-top: 7rem;
-    color: #B6DE75;
-    background: #1E1F21;
+    margin-bottom:20% ;
+    background-color: transparent;
+    display: flex;
+    margin-top: 5%;
+    background:#1E1F21;
     width: 100%;
     height: 30vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -2;
+}
+.container img {
+    width: 36rem;
+    height: 24rem;
+    
+}
+.sporttext{
+    position: relative;
+    top: -5%;
+    
+}
+.sporttext h1{
+    font-size: 5rem;
+    color: var(--green);
+}
+.sporttext ul{
+    position: relative;
+    color: var(--whitish);
+    list-style: none;
+    }
+.sporttext ul li{
+    font-size: 2rem;
+}
+.sporttext ul li::before{
+    content: "\2022";
+    color: var(--green);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 0.5;
+    padding-right: 1rem;
+    vertical-align: middle;
+}
+
+
+#img1{
+    position: relative;
+    width: auto;
+    left: 5%;
+    top: -20%
+}
+#img2{
+    position: absolute;
+    width: auto;
+    left: -10vw;
+    top: -10vh;
+}
+#img3{
+    position: absolute;
+    height: 50%;
+    width: auto;
+    top: -13vh;
+    left: -8vw;
+   
+}
+#img4{
+    position: absolute;
+    height: 40%;
+    width: auto;
+    top: -12.25vh;
+    left: -5.25vw;
+    z-index: -1;
+}
+#img5{
+    position: relative;
+    left: 10vw;
+    margin-left: -20vw;
+    top: 20vh;
     z-index: 1;
 }
-.container img{
-    width: 600;
-    height:40vh;
-    position: relative;
-    transform: translateY(-10%);
-    left: 4%;
+#img6{
+    position: absolute;
+    height: 35%;
+    width: auto;
+    left: 76.5vw;
+    top: 157.5vh;
+    z-index: 0;
 }
