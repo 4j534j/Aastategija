@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     background: #000;
+    margin-top: 15rem;
 } 
 .about-section {
     display: flex;

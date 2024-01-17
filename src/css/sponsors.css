@@ -1,12 +1,12 @@
 .organizers-container {
-  width: 100%;
+  width: 1200px;
   height: 100%;
   padding-bottom: 64px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 43px;
-  display: inline-flex;
+  display: block;
+  margin: auto;
+}
+.organizers-container .title {
+  margin-bottom: 43px;
 }
 .organizers-container .image-container {
   width: 1200px;
@@ -14,6 +14,7 @@
   align-items: flex-start;
   gap: 24px;
   display: inline-flex;
+  margin: auto;
 }
 .organizers-container .image-container .image {
   width: 100%;
