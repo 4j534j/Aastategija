@@ -1,5 +1,18 @@
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
+    align-items: center; 
+}
+
+body {
+    background-color: #000000;
+}
+
+.title {
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
