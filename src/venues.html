@@ -8,51 +8,54 @@
   <link rel="stylesheet" href="./css/venues.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-
+    <!-- https://code.jquery.com/jquery-3.7.1.min.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/venues.js"></script>
 </head>
 
 <body>
+    
   <div class="venues-container">
 
     <div class="venues-container">
       <div class="title">Venues</div>
       <div class="venues-button-container">
-        <div class="map_button green">
-          <div class="icon">
+        <div class="map_button green" id="1">
+          <div class="icon yellow">
             <img style="width: 23.01px; height: 32px; fill:#1E1F21" src="./img/Vector.svg" alt="Vector Icon">
           </div>
           <div class="text_container">
             <div class="text">Tartu Vocational College</div>
           </div>
         </div>
-        <div class="map_button black">
+        <div class="map_button black" id="2">
           <div class="icon green">
-            <img style="width: 23.01px; height: 32px; fill: pink !important;" src="./img/Vector.svg" alt="Vector Icon">
+            <img style="width: 23.01px; height: 32px;" src="./img/Vector.svg" alt="Vector Icon">
           </div class="text_container">
-          <div style="color: white" class="text">Variku Sports Hall</div>
+          <div class="text">Variku Sports Hall</div>
         </div>
-        <div class="map_button black">
+        <div class="map_button black" id="3">
           <div class="icon blue">
             <img style="width: 23.01px; height: 32px;" src="./img/Vector.svg" alt="Vector Icon">
           </div class="text_container">
-          <div style="color: white" class="text">Estonian National Museum</div>
+          <div  class="text">Estonian National Museum</div>
         </div>
       </div>
       <div class="map-container">
-        <img class="map-image" src="./img/kopli.png" />
+        <img class="map-image" id="map-image" src="./img/kopli.png" />
         <div class="open_map_box">
           <div class="text-container">
-            <div class="text">
+            <div class="text" id="button_text">
               Tartu Vocational College
               <br>
               Kopli 1, Tartu, Estonia
             </div>
           </div>
-          <div class="button">
+          <button class="button" onclick="window.location.href = 'https://www.google.com/maps/place/Tartu+Rakenduslik+Kolled%C5%BE/@58.3496346,26.7116099,17z/data=!4m15!1m8!3m7!1s0x46eb3747db90ed05:0x387b666bb555e743!2sKopli+1,+50115+Tartu!3b1!8m2!3d58.3496318!4d26.7141848!16s%2Fg%2F11c2ddf665!3m5!1s0x46eb37487c7817f9:0x31f91313d1bbe0ee!8m2!3d58.3498339!4d26.7155093!16s%2Fg%2F1tgnks1t?entry=ttu'">
             <div class="text">Open map</div>
             <div class="icon">
               <img src="./img/nool.svg" alt="Arrow">
-            </div>
+            </button>
           </div>
         </div>
         

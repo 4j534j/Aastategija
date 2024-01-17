@@ -19,10 +19,12 @@
 
 .map_button.green {
   background: #92ce31;
+  color: black !important;
 }
 
 .map_button.black {
   background: var(--Gray-gray-900, #1e1f21);
+  color: white !important;
 }
 
 .venues-container {
@@ -41,7 +43,6 @@
 }
 
 .map_button .text {
-  color: #1e1f21;
   font-size: 18px;
   font-family: Inter;
   white-space: nowrap;
@@ -77,6 +78,9 @@
 .map_button .icon.blue img {
   filter: invert(42%) sepia(52%) saturate(5712%) hue-rotate(178deg)
     brightness(95%) contrast(102%);
+}
+.map_button .icon.yellow img {
+  filter: invert(72%) sepia(79%) saturate(2577%) hue-rotate(342deg) brightness(106%) contrast(95%); 
 }
 .map-container {
   width: 1200px;
@@ -133,7 +137,7 @@
   align-items: center;
   gap: 8px;
   display: flex;
-
+  border: none;
 }
 
 .open_map_box .button .text {
