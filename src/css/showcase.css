@@ -15,7 +15,7 @@
     
 } 
 #showcase h1 {
-    color: #B6DE75;
+    color: var(--EKKSL-green3);
     font-weight: 700;
     font-size: 79%;
     line-height: 100%;

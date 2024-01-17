@@ -1,11 +1,3 @@
-:root{
-    --green: #B6DE75;
-    --whitish:#F4FAEA;
-    --darkgreen: #92CE31;
-    --darktext: #1E1F21;
-    --textgreen: #DDF0BF;
-
-}
 *{
     padding: 0;
     margin: 0;
@@ -14,8 +6,8 @@
 
 body{
     background-color: black;
-    margin-left: 8.3%;
-    margin-right: 8.3%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 h1{
     color: white;
@@ -28,43 +20,44 @@ h1{
 .schedule{
     padding-top: 10vh;
     background: transparent;
-    width: 100%;
+    width: 60%;
     display: flex;
 }
 .schedule-small{
-    background: var(--darktext);
+    background: var(--gray);
     margin-left: 3rem;
     border-radius: 10rem;
     width: 15vw;
-    height: 8vh;
+    height: 10vh;
     padding: 1rem;
     cursor: pointer;
 }
 .schedule-small:hover{
-    background: var(--darkgreen);
+    background: var(--EKKSL-green2);
 }
 .schedule-small:hover h1{
-    color: var(--darktext)
+    color: var(--gray)
 
 }
 .schedule-small h1{
     font-size: 2rem;
     text-align: center;
-    color: var(--textgreen);
+    color: var(--EKKSL-green5);
 }
 #selected-day{
-    background:var(--darkgreen);
+    background: var(--EKKSL-green2);
 }
 #selected-day h1{
-    color: var(--darktext)
+    color: var(--gray)
 }
 
 /* top row of schedule */
 .schedule-rowtop {
     margin-top: 2rem;
     height: 5rem;
-    color: var(--green);
-    background: var(--darktext);
+    color: var(--EKKSL-green3);
+    font-weight: 600;
+    background: var(--gray);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -79,8 +72,8 @@ h1{
 .schedule-row {
     margin-top: 2rem;
     height: 10rem;
-    color: var(--darktext);
-    background: var(--whitish);
+    color: var(--gray);
+    background: var(--EKKSL-beige);
     display: flex;
     align-items: center;
     border-radius: 1rem;
@@ -91,11 +84,11 @@ h1{
     font-size: 2rem;
 }
 #schedule-row2{
-    background: var(--textgreen);
+    background: var(--EKKSL-green5);
 }
 .schedule-line{
     width: 0.1%;
-    background: var(--darktext);
+    background: var(--EKKSL-green5);
     height: 100%;
     opacity: 0.4;
 }

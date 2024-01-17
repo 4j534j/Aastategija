@@ -1,7 +1,4 @@
-:root {
-  --EKKSL-Green-green-500: #0db14b;
-  --Gray-gray-900: #1e1f21;
-}
+
 .map_button {
   width: 100%;
   height: 100%;
@@ -18,12 +15,12 @@
 }
 
 .map_button.green {
-  background: #92ce31;
-  color: black !important;
+  background: var(--EKKSL-green2);
+  color: gray !important;
 }
 
 .map_button.black {
-  background: var(--Gray-gray-900, #1e1f21);
+  background: var(--gray);
   color: white !important;
 }
 
@@ -100,7 +97,7 @@
   padding-right: 48px;
   padding-top: 24px;
   padding-bottom: 24px;
-  background: #1e1f21;
+  background: var(--gray);
   border-radius: 20px;
   justify-content: flex-start;
   align-items: center;
@@ -119,7 +116,7 @@
 }
 
 .open_map_box .text-container .text {
-  color: #fafbeb;
+  color: var(--gray-voco);
   font-size: 16px;
   font-family: Inter;
   font-weight: 600;
@@ -132,7 +129,7 @@
   padding-right: 24px;
   padding-top: 16px;
   padding-bottom: 16px;
-  background: #92ce31;
+  background: var(--EKKSL-green2);
   border-radius: 6px;
   overflow: hidden;
   justify-content: center;
@@ -143,7 +140,7 @@
 }
 
 .open_map_box .button .text {
-  color: #1e1f21;
+  color: var(--gray);
   font-size: 18px;
   font-family: Inter;
   font-weight: 700;

@@ -18,7 +18,7 @@
 } 
 .frame47 {
     border-radius: 1.25rem;
-    background: var(--Gray-gray-900, #1E1F21);
+    background: var(--gray);
     display: flex;
     width: 75rem;
     height: 55rem;
@@ -28,7 +28,7 @@
     gap: 3rem;
 } 
 .frame47-title {
-    color: var(--EKKSL-Green-green-300, #B6DE75);
+    color: var(--EKKSL-green3);
     font-family: Montserrat;
     font-size: 2rem;
     font-style: normal;
@@ -36,7 +36,7 @@
     line-height: normal; 
 } 
 .frame47-text {
-    color: var(--Orange-Toidukool-orange-50, #FEF5E9);
+    color: var(--about-text);
     position: relative;
     width: 50%;
     font-family: Montserrat;
@@ -47,7 +47,7 @@
     letter-spacing: 0.01488rem;
 }
 .frame47-text-green{
-    color: var(--EKKSL-Green-green-500, #92CE31); 
+    color: var(--EKKSL-green3); 
     font-family: Montserrat;
     font-size: 1.48881rem;
     font-style: normal;
@@ -76,9 +76,8 @@
     gap: 1rem;
     flex: 1 0 0; 
     border-radius: 1.25rem;
-    background: #1E1F21;
-    color: #B4E7C7;
-    color: #B4E7C7;
+    background: var(--gray);
+    color: var(--about-guide-text);
     font-family: Inter;
     font-size: 1.5rem;
     font-style: normal;
@@ -94,9 +93,8 @@
     gap: 1rem;
     flex: 1 0 0;
     border-radius: 1.25rem;
-    background: var(--Gray-gray-900, #1E1F21);
-    color: #B0E9E1;
-    color: var(--Green-Koolitused-green-100, #B0E9E1);
+    background: var(--gray);
+    color: var(--about-trophy-text);
     font-family: Inter;
     font-size: 1.5rem;
     font-style: normal;
@@ -112,9 +110,8 @@
     gap: 1rem;
     flex: 1 0 0; 
     border-radius: 1.25rem;
-    background: var(--Gray-gray-900, #1E1F21);
-    color: #BAEDFC;
-    color: var(--Light-Blue-IT-kool-light-blue-100, #BAEDFC);
+    background: var(--gray);
+    color: var(--light-blue);
     font-family: Inter;
     font-size: 1.5rem;
     font-style: normal;

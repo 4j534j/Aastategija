@@ -63,10 +63,10 @@ body {
     position: absolute;
     left: -15vw;
     height: 10vh;
-    background: green;
+    background: var(--EKKSL-green2);
     display: flex;
     align-items: center;
-    animation: infobox 105s linear infinite; /* Adjust the duration and timing function */
+    animation: infobox 20s linear infinite;
 }
 
 @keyframes infobox {
@@ -74,7 +74,7 @@ body {
         left: 0vw;
     }
     100% {
-        left: -1060vw;
+        left: -160vw;
     }
 }
 
@@ -92,7 +92,7 @@ body {
     position: relative;
     content: "\2022";
     font-size: 10rem;
-    color: #1E1F21;
+    color: var(--gray);
     line-height: 3rem;
     padding-right: -6rem; 
 }

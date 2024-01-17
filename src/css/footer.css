@@ -10,11 +10,11 @@
 .footer-wrapper {
     align-self: stretch;
     height: 478.40px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 64px;
     padding-bottom: 64px;
-    background: #1E1F21;
+    background: var(--gray);
     flex-direction: column;
     justify-content: center;
     align-items: center;
