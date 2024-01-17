@@ -28,3 +28,36 @@
     line-height: 50%;
     align-items: center;
 } 
+
+.first {
+    -webkit-animation: bannermove 15s linear infinite;
+       -moz-animation: bannermove 15s linear infinite;
+        -ms-animation: bannermove 15s linear infinite;
+         -o-animation: bannermove 15s linear infinite;
+            animation: bannermove 15s linear infinite;
+}
+ 
+@keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-webkit-keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-ms-keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-o-keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
