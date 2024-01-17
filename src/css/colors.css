@@ -1,0 +1,24 @@
+:root {
+    --black: #000000;
+    --gray: #1E1F21;
+    --white: #FFFFFF;
+    --EKKSL-green1: #50711B;
+    --EKKSL-green2: #92CE31;
+    --EKKSL-green3: #B6DE75;
+    --EKKSL-green4: #CDE8A0;
+    --EKKSL-green5: #DDF0BF;
+    --EKKSL-beige: #F4FAEA;
+    --about-text: #FEF5E9;
+    --orange-toidukool: #F99D27;
+    --about-guide-ehituskool: #0DB14B;
+    --about-guide-text: #B4E7C7;
+    --about-trophy: #00B89D;
+    --about-trophy-text: #B0E9E1;
+    --about-globe: #20C4F4;
+    --about-globe-text: #20C4F4;
+    --sport-1: #CADB361A;
+    --red-arikool: #EF4044;
+    --blue-tehnikakool: #0089CF;
+    --gray-turismikool: #FAFBEB;
+    --gray-voco: #F5F7FA;
+} 
