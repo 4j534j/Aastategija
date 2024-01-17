@@ -36,7 +36,10 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-} 
+}
+.frame47-title h1 {
+    color: var(--EKKSL-green3);
+}  
 .frame47-text {
     color: var(--about-text);
     position: relative;
