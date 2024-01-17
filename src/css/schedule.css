@@ -90,7 +90,7 @@ h1{
     font-size: 2rem;
 }
 #schedule-row2{
-    background: var(--darkgreen);
+    background: var(--textgreen);
 }
 .schedule-line{
     width: 0.1%;

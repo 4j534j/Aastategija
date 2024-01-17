@@ -52,3 +52,24 @@ body {
     gap: 10px;
     display: flex;
 }
+.infobox{
+    width: 100%;
+    position: absolute;
+    left:0;
+    height: 10vh;
+    background: green;
+    display: flex;
+    align-items: center;
+}
+.infobox ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.infobox ul li::before {
+    content: "\2022";
+    font-size: 30px;
+    color: red;
+    vertical-align: middle;
+}
+
