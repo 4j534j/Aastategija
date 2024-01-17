@@ -9,12 +9,14 @@
     align-items: center;
     background: #000;
     margin-top: 15rem;
+    padding-bottom: 7.5rem;
 } 
 .about-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
+
 } 
 .frame47 {
     border-radius: 1.25rem;
@@ -33,7 +35,7 @@
     font-size: 2rem;
     font-style: normal;
     font-weight: 800;
-    line-height: normal; 
+    line-height: normal;
 } 
 .frame47-text {
     color: var(--about-text);
@@ -88,6 +90,7 @@
 .about .frame49-2 {
     display: flex;
     padding: 4rem 2rem;
+    height: 12rem;
     justify-content: center;
     align-items: center;
     gap: 1rem;

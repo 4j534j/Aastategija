@@ -21,16 +21,16 @@
 
 <body>
     <!-- navigation bar-->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="navbar-content">
             <img class="logo" src="./img/EKKSL-valge-full.png" />
 
             <div class="navbar-links">
-                <a href="#" class="nav-link">About</a>
-                <a href="#" class="nav-link">Sports</a>
-                <a href="#" class="nav-link">Schedule</a>
-                <a href="#" class="nav-link">Venues</a>
-                <a href="#" class="nav-link">Sponsors</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#sports" class="nav-link">Sports</a>
+                <a href="#schedule" class="nav-link">Schedule</a>
+                <a href="#venues" class="nav-link">Venues</a>
+                <a href="#sponsors" class="nav-link">Sponsors</a>
             </div>
         </div>
     </nav>
@@ -160,7 +160,7 @@
 
     </div>
     <!-- About page -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="about-section">
             <div class="frame47">
                 <div class="frame47-title"><h1>29 Years of Unity and Athletic Achievements</h1></div>
@@ -181,7 +181,7 @@
     </div>
     
      <!-- Sports -->
-     <div class="sport-container">
+     <div class="sport-container" id="sports">
         <div class="title">Sports</div>
         <div class="sport-section">
             <div class="sport-subsection">
@@ -275,7 +275,7 @@
     </div>
     <!-- Sports end-->
     <!-- Schedule -->
-    <h1> Schedule</h1>
+    <h1 id="schedule"> Schedule</h1>
     <!-- day 1-->
     <div id="day1">
         <div class="schedule">
@@ -885,7 +885,7 @@
 <!-- Schedule end -->
 <!-- Venues -->
     
-<div class="venues-container">
+<div class="venues-container" id="venues">
 
     <div class="venues-container">
       <div class="title">Venues</div>
@@ -933,18 +933,18 @@
     </div>
     <!-- Venues end -->
     <!-- Sponsors -->
-    <div class="organizers-container">
+    <div class="organizers-container" id="sponsors">
         <div class="title">Main organizer</div>
 
         <div class="image-container">
             <div style="flex: 1 1 0; height: 207.10px; padding-left: 83px; padding-right: 83px; padding-top: 33px; padding-bottom: 33px; background: #F5F7FA; border-radius: 20px; overflow: hidden; flex-direction: column; justify-content: space-between; align-items: center; display: inline-flex">
                 <div style="width: 384.36px; height: 141.10px; justify-content: center; align-items: center; display: inline-flex">
-                    <img style="width: 384.36px; height: 141.10px" src="./img/voco-logo.png" />
+                    <a href="https://voco.ee/" target="_blank"><img style="width: 384.36px; height: 141.10px" src="./img/voco-logo.png" /></a>
                 </div>
             </div>
             <div style="flex: 1 1 0; height: 207px; padding-left: 133px; padding-right: 133px; padding-top: 35px; padding-bottom: 35px; background: #F5F7FA; border-radius: 20px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
                 <div style="width: 284px; height: 110px; justify-content: center; align-items: center; display: inline-flex">
-                    <img style="width: 284px; height: 110px" src="./img/ekksl.png" />
+                    <a href="https://ekksl.ee/" target="_blank"><img style="width: 284px; height: 110px" src="./img/ekksl.png" /></a>
                 </div>
             </div>
         </div>
@@ -953,10 +953,10 @@
     <div class="title">Sponsors</div>
     <div class="image-container">
         <div style="flex: 1 1 0; padding-left: 43px; padding-right: 43px; padding-top: 46px; padding-bottom: 46px; background: #F5F7FA; border-radius: 20px; overflow: hidden; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-            <img style="width: 298.25px; height: 114.97px" src="./img/UnitedMotors_logo.png" />
+            <a href="https://www.unitedmotors.ee/" target="_blank"><img style="width: 298.25px; height: 114.97px" src="./img/UnitedMotors_logo.png" /></a>
         </div>
         <div style="flex: 1 1 0; padding-left: 64px; padding-right: 64px; padding-top: 55px; padding-bottom: 55px; background: #F5F7FA; border-radius: 20px; overflow: hidden; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-            <img style="width: 249.93px; height: 98.31px" src="./img/funmaker_logo 1.png" />
+            <a href="https://funmaker.ee/" target="_blank"><img style="width: 249.93px; height: 98.31px" src="./img/funmaker_logo 1.png" /></a>
         </div>
     </div>
 </div>
@@ -966,19 +966,30 @@
     <div class="container">
         <div class="footer-wrapper">
             <div class="footer-content">
+                
                 <div class="contact-info">
-                    <div class="footer-text footer-text-bold">Kontakt</div>
+                    <div style="width: 100%; height: 100%; position: relative">
+                        <div style="width: 80px; height: 80px; left: 550px;top: -70px; position: absolute">
+                            <svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="40.2651" r="40" fill="#CDE8A0" onclick="window.location.href = '#'"/>
+                                <path d="M40 29.6587L56 45.6587" stroke="#1E1F21" onclick="window.location.href = '#'" stroke-width="3.2" stroke-linecap="round"/>
+                                <path d="M40 29.6587L24 45.6587" stroke="#1E1F21" stroke-width="3.2"  stroke-linecap="round"/>
+                                </svg> 
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="footer-text footer-text-bold">Contact</div>
                     <div class="footer-text footer-text-medium">Eesti Kutsekoolispordi Liit MTÜ<br/><br/>
                         Reg. number: 80110180<br/>
-                        Telefon: +372 56 111 866<br/>
-                        E-post: <span class="footer-text-underline"><a href="mailto:tiit@ekksl.ee">tiit@ekksl.ee</a></span><br/>
+                        Tel: +372 56 111 866<br/>
+                        E-mail: <span class="footer-text-underline"><a href="mailto:tiit@ekksl.ee">tiit@ekksl.ee</a></span><br/>
                         Aardla 23b, Tartu<br/>
                         Skype: EKKSL_EVSSF<br/>
                         <span class="footer-text-underline"><a href="https://www.ekksl.ee">www.ekksl.ee</a></span><br/>
                         Tiit Tammaru
                     </div>
                     <div class="footer-text footer-text-copyright">Copyright Eesti Kutsekoolispordi Liit MTÜ ©2024.<br/>
-                        Kõik õigused on kaitstud.
+                        All rights reserved.
                     </div>
                 </div>
                 <div class="footer-logo">
