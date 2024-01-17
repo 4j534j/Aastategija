@@ -123,10 +123,10 @@ h1{
 }
 /* day change*/
 #day1{
-    display: none;
+    display: block;
 }
 #day2{
-    display: block;
+    display: none;
 }
 #day3{
     display: none;
