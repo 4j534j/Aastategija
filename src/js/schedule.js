@@ -4,5 +4,4 @@ function daychange(day, curday) {
     alttag = day.getAttribute('alt');
     chosenday = document.getElementById(alttag);
     chosenday.style.display = 'block';
-    
 }
