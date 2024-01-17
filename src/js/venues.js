@@ -16,7 +16,7 @@ window.onload = function() {
             $(`#${button.id}`).addClass("green");
             $("#button_text").html(button.location);
             $("#map-image").attr("src", button.img);
-            $("#map-url").attr("href", button.url);
+            $("#map-url").attr("onclick", `window.location.href = '${button.url}';`);
         });
     }
 }
