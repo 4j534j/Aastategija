@@ -13,7 +13,7 @@ body {
 .sport-container {
     width: 1200px;
     height: 100%;
-    padding-bottom: 64px;
+    padding-bottom: 10rem;
     display: block;
     margin: auto;
 }
@@ -42,6 +42,7 @@ body {
   align-items: center;
   gap: 80px;
   display: inline-flex;
+  padding-top: 3rem;
 }
 .sport-subsection {
   width: 1200px;
