@@ -34,8 +34,9 @@ h1{
 .schedule-small{
     background: var(--darktext);
     margin-left: 3rem;
-    border-radius: 10%;
+    border-radius: 10rem;
     width: 15vw;
+    height: 8vh;
     padding: 1rem;
     cursor: pointer;
 }

@@ -1,4 +1,6 @@
-
+:root{
+    -- :#1E1F21;
+}
 body {
     padding: 0;
 }
@@ -56,24 +58,42 @@ body {
     gap: 10px;
     display: flex;
 }
-.infobox{
-    width: 100%;
+.infobox {
+    width: 2000%;
     position: absolute;
-    left:0;
+    left: -15vw;
     height: 10vh;
     background: green;
     display: flex;
     align-items: center;
+    animation: infobox 105s linear infinite; /* Adjust the duration and timing function */
 }
+
+@keyframes infobox {
+    0% {
+        left: 0vw;
+    }
+    100% {
+        left: -1060vw;
+    }
+}
+
 .infobox ul li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    font-size: 3rem;
+    align-items: center;
+    line-height: 3rem;
+    display: flex;
+    position: relative;
+    margin-right: 5rem;
 }
+
 .infobox ul li::before {
+    position: relative;
     content: "\2022";
-    font-size: 30px;
-    color: red;
-    vertical-align: middle;
+    font-size: 10rem;
+    color: #1E1F21;
+    line-height: 3rem;
+    padding-right: -6rem; 
 }
 
