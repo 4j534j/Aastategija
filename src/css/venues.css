@@ -34,7 +34,15 @@
   margin: auto;
   margin-top: 80px;
 }
-
+.location-logo1 {
+  width: 23.01px;
+  height: 32px;
+  fill:#1E1F21;
+} 
+.location-logo2 {
+  width: 23.01px;
+  height: 32px;
+} 
 .venues-button-container {
   display: flex;
   align-items: flex-start;
