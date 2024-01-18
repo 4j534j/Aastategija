@@ -67,7 +67,7 @@
     top: -36rem;
 } 
 .frame49 {
-    background: #000;
+    background: var(--black);
     display: flex;
     align-items: center;
     gap: 1.5rem;

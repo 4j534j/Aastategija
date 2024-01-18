@@ -5,9 +5,7 @@
 }
 
 body {
-    background-color: #000000;
-    margin-left: 8.3%;
-    margin-right: 8.3%;
+    background-color:var(--black) !important;
     overflow-x: hidden;
 }
 
