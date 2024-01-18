@@ -19,4 +19,9 @@
 }
 .footerright{
     width: 50%;
+    padding-right: 1rem;
+}
+.footerright img{
+    width: 100%;
+    height: auto;
 }
