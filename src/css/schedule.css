@@ -105,6 +105,20 @@ h1{
     padding-right: 5%;
     padding-left: 1%;
 }
+.schedule-location a{
+    text-decoration: none;
+    color: var(--gray);
+}
+.schedule-location:hover img{
+    transform: translateY(-10%);
+    transform: scale(1.5);
+    transition:  transform 0.5s ease;
+
+}
+.schedule-location a:hover {
+    color: var(--EKKSL-green1);
+}
+
 .schedule-location{
     display: flex;
     justify-content:left;
