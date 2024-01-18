@@ -7,7 +7,7 @@
 body{
     background-color: black;
     margin-left: 25%;
-    margin-right: 20%;
+    margin-right: 25%;
 }
 h1{
     color: white;
@@ -18,20 +18,22 @@ h1{
 }
 /*schedule day */
 .schedule{
-    padding-top: 10vh;
+    padding-top: 5vh;
     background: transparent;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: left;
 }
 .schedule-small{
     background: var(--gray);
-    margin-left: 3rem;
-    border-radius: 10rem;
+    margin-right: 3rem;
+    border-radius: 2rem;
     width: 30vw;
     height: 10vh;
-    padding: 1rem;
+    padding: 1.5rem;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 .schedule-small:hover{
     background: var(--EKKSL-green2);
@@ -89,24 +91,24 @@ h1{
 }
 .schedule-line{
     width: 0.1%;
-    background: var(--EKKSL-green5);
+    background:black;
     height: 100%;
     opacity: 0.4;
 }
 .schedule-time{
     display: flex;
     justify-content:left;
-    width: 10%;
+    width: 25%;
 }
 .schedule-event{
-    width: 50%;
+    width: 49.6%;
     padding-right: 5%;
     padding-left: 1%;
 }
 .schedule-location{
     display: flex;
     justify-content:left;
-    width: 35%;
+    width: 25%;
     gap: 1rem;
 }
 .schedule-location img{
