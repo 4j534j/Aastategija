@@ -79,7 +79,8 @@ body {
     width: 2000%;
     position: absolute;
     font-family: Montserrat;
-
+    max-height: 115px;
+    min-height: 6rem;
     left: -15vw;
     height: 10vh;
     background: var(--EKKSL-green2);
