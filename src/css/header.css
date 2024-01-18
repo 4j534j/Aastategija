@@ -59,6 +59,8 @@ body {
 .infobox {
     width: 2000%;
     position: absolute;
+    font-family: Montserrat;
+
     left: -15vw;
     height: 10vh;
     background: var(--EKKSL-green2);
@@ -85,16 +87,23 @@ body {
     position: relative;
     margin-right: 5rem;
 }
-
+#infobox1 {
+    color: var(--EKKSL-green1)
+}
 .infobox ul li::before {
     position: relative;
     content: "\2022";
-    font-size: 10rem;
-    color: var(--gray);
-    line-height: 3rem;
-    padding-right: -6rem; 
+    font-size: 13rem;
+    top: -16px;
+    right: 36px;
+    color: var(--black)
 }
-
+#infobox2 {
+    color: var(--white)
+}
+#infobox3 ul li::before {
+    color: var(--black)
+}
 .navbar2{
     width: 100%;
     height: 100%;

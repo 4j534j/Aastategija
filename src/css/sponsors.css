@@ -26,3 +26,85 @@
   gap: 16px;
   display: inline-flex;
 }
+.voco-container {
+  flex: 1 1 0;
+  height: 207.10px;
+  padding-left: 83px;
+  padding-right: 83px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  background: #F5F7FA;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+} 
+.voco-logo {
+  width: 384.36px;
+  height: 141.10px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+} 
+.ekksl-container {
+flex: 1 1 0;
+height: 207px;
+padding-left: 133px;
+padding-right: 133px;
+padding-top: 35px;
+padding-bottom: 35px;
+background: #F5F7FA;
+border-radius: 20px; 
+overflow: hidden;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10px; display: inline-flex;
+} 
+.ekksl-logo {
+  width: 284px;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+} 
+.unitedmotors-container {
+  flex: 1 1 0;
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  background: #F5F7FA;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+} 
+.unitedmotors-logo {
+  width: 298.25px;
+  height: 114.97px;
+} 
+.funmaker-container {
+  flex: 1 1 0;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background: #F5F7FA;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+} 
+.funmaker-logo {
+  width: 249.93px;
+  height: 98.31px;
+} 
