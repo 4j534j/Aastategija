@@ -16,7 +16,10 @@ body {
     padding-bottom: 10rem;
     display: block;
     margin: auto;
+  max-width: 1200px;
+
 }
+
 .sport-text-container {
   justify-content: center;
   align-items: center;
