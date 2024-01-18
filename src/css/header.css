@@ -166,9 +166,8 @@ body {
 }
 
 .colchange{
-    width: 6vw;
-    height: 2vh;
-    background:  red;
+    width: 6rem;
+    font-size: large;
     cursor: pointer;
 }
 
