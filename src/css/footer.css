@@ -27,3 +27,11 @@
     width: 100%;
     height: auto;
 }
+
+.footer_button_container {
+    width: 100%; height: 100%; position: relative
+}
+
+.footer_button {
+    width: 80px; height: 80px; left: 478px;top: -83px; position: absolute
+}
