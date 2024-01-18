@@ -34,9 +34,23 @@ h1{
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
 }
+
 .schedule-small:hover{
     background: var(--EKKSL-green2);
+    animation: schehov 1s ease;
+}
+@keyframes schehov {
+    0%{
+        opacity: 0;
+        padding-top: 1rem;
+    }
+    100%{
+        opacity: 1;
+        padding-top: 0;
+    }
 }
 .schedule-small:hover h1{
     color: var(--gray)
@@ -62,14 +76,14 @@ h1{
     font-weight: 600;
     background: var(--gray);
     display: flex;
-    justify-content: space-around;
     align-items: center;
     border-radius: 1rem;
+    padding-left: 1rem;
+
 }
 .schedule-rowtop h2{
     text-align: left;
-    font-size: 3rem;
-    padding-left: 1rem;
+    font-size: 2rem;
 }
 /* schedule */
 .schedule-row {
@@ -124,14 +138,13 @@ h1{
     justify-content:left;
     width: 25%;
     gap: 1rem;
+    padding-left: 0.5rem;
 }
 .schedule-location img{
     width: auto;
     padding-left: 1rem;
 }
-.schedule-rowtop h2{
-    font-size: 1.5rem;
-}
+
 /* day change*/
 #day1{
     display: block;
