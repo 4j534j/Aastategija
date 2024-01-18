@@ -49,7 +49,142 @@ body {
   height: 426px;
   position: relative;
 }
-
+.smaller-container {
+  width: 1200px;
+  height: 400px;
+  left: 0px;
+  top: 13px;
+  position: absolute"
+}
+.basketball-text {
+  height: 160px;
+  flex-direction:column;
+  justify-content:center;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  left: -13%;
+} 
+.basketball-picture {
+  width: 600px;
+  height: 400px;
+  left: 64px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(202, 219, 54, 0.10) 0%, rgba(202, 219, 54, 0.10) 100%);
+  border-radius: 20px
+} 
+.volleyball-container {
+  width: 1320px;
+  height: 561.86px;
+  position: relative
+} 
+.smaller-volleyball-container {
+  width: 1200px;
+  height: 400px;
+  left: 60px;
+  top: 81px;
+  position: absolute;
+} 
+.smallest-volleyball-container {
+  width: 1200px;
+  height: 310px;
+  padding: 64px;
+  left: 0px;
+  top: 45px;
+  position: absolute;
+  background: #1E1F21;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+} 
+.volleyball-text {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+} 
+.volleyball-picture {
+  width: 600px;
+  height: 400px;
+  left: 536px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(202, 219, 54, 0.10) 0%, rgba(202, 219, 54, 0.10) 100%);
+  border-radius: 20px;
+} 
+.volleyball {
+  width: 81px;
+  height: 81px;
+  left: 99px;
+  top: -26px;
+  position: absolute;
+  background: #20C4F4;
+  border-radius: 9999px;
+} 
+.volleyball-player {
+  width: 297px;
+  height: 561.86px;
+  left: -46px;
+  top: 0px;
+  position: absolute;
+} 
+.table-tennis-container {
+  width: 1200px;
+  height: 400px;
+  left: 0px;
+  top: 13px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+} 
+.smaller-table-tennis-container {
+  width: 1200px;
+  height: 400px;
+  position: relative;
+} 
+.smallest-table-tennis-container {
+  width: 1200px;
+  height: 310px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  left: 0px;
+  top: 45px;
+  position: absolute;
+  background: #1E1F21;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 16px;
+  display: inline-flex;
+} 
+.table-tennis-text {
+  height: 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  left: -14%;
+} 
+.table-tennis-picture {
+  width: 600px;
+  height: 400px;
+  left: 64px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(202, 219, 54, 0.10) 0%, rgba(202, 219, 54, 0.10) 100%);
+  border-radius: 20px;
+} 
 .sport-card-first {
   height: 310px;
   padding-left: 64px;
@@ -69,7 +204,21 @@ body {
   display: inline-flex;
   width: 100%;
 }
-
+.table-tennis-racket {
+  width: 468px;
+  height: 346.77px;
+  left: 890px; top: 241.14px;
+  position: absolute;
+} 
+.table-tennis-ball {
+  width: 256px;
+  height: 256px;
+  left: 133px;
+  top: 0px;
+  position: absolute;
+  background: #EF4044;
+  border-radius: 9999px;
+} 
 .sport-bullet-point {
   width: 16px;
   height: 16px;
