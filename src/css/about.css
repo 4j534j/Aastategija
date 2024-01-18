@@ -71,8 +71,34 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    align-self: stretch; 
+    align-self: stretch;
+}
+.frame49-1:hover{
+    transform: translateY(-10%);
+    cursor: pointer;
+}
+.frame49-2:hover{
+    transform: translateY(-10%);
+    cursor: pointer;
+
+}
+.frame49-3:hover{
+    transform: translateY(-10%);
+    cursor: pointer;
+
+}
+.frame49-1 a{
+    text-decoration: none;
+    color: var(--about-guide-text);
+}
+.frame49-2 a{
+    text-decoration: none;
+    color: var(--about-trophy-text);
 } 
+.frame49-3 a{
+    text-decoration: none;
+    color: var(--light-blue);
+}  
 .frame49-1 {
     display: flex;
     padding: 4rem 2rem;

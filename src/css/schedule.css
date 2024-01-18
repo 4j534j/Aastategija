@@ -7,7 +7,7 @@
 body{
     background-color: black;
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 20%;
 }
 h1{
     color: white;
@@ -20,14 +20,15 @@ h1{
 .schedule{
     padding-top: 10vh;
     background: transparent;
-    width: 60%;
+    width: 80%;
     display: flex;
+    justify-content: left;
 }
 .schedule-small{
     background: var(--gray);
     margin-left: 3rem;
     border-radius: 10rem;
-    width: 15vw;
+    width: 30vw;
     height: 10vh;
     padding: 1rem;
     cursor: pointer;

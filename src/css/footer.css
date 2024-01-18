@@ -55,6 +55,7 @@
     color: white;
     font-size: 20px;
     font-family: Montserrat;
+    position: absolute;
 }
 
 .footer-text-bold {
@@ -85,3 +86,6 @@
     top: -70px;
     position: absolute;
 } 
+.footer-text a{
+    position: absolute;
+}
