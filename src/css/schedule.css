@@ -81,7 +81,6 @@ h1{
 
 /* top row of schedule */
 .schedule-rowtop {
-    margin-top: 2rem;
     height: 5rem;
     color: var(--EKKSL-green3);
     font-weight: 600;
@@ -92,17 +91,17 @@ h1{
     padding-left: 1rem;
     max-width: 1200px;
     margin: auto;
+    margin-top: 2rem;
+
 
 }
 .schedule-rowtop h2{
     text-align: left;
     font-size: 2rem;
     max-width: 1200px;
-        ;
 }
 /* schedule */
 .schedule-row {
-    margin-top: 2rem;
     height: 10rem;
     color: var(--gray);
     background: var(--EKKSL-beige);
@@ -112,6 +111,8 @@ h1{
     padding-left: 1rem;
     max-width: 1200px;
     margin: auto;
+    margin-top: 1rem;
+
 }
 .schedule-row h2{
     text-align: left;
